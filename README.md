@@ -1,4 +1,4 @@
-# Hopscotch: Transformer Block Removal Training
+# Hopscotch: A Method for Skipping Redundant Transformer Blocks
 
 This repository implements the Hopscotch method for skipping redundant transformer blocks while maintaining model performance through adaptive scaling parameters.
 
