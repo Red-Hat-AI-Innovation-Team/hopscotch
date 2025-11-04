@@ -8,6 +8,8 @@ This repository implements the Hopscotch method for skipping redundant transform
 
 Hopscotch identifies and removes attention blocks that contribute least to task performance while maintaining output quality through adaptive scaling. The method jointly optimizes which blocks to skip and how to scale the outputs of the remaining layers, achieving minimal performance degradation (less than 2% drop when skipping 4 blocks on Llama-3.1-8B and Qwen2.5-7B).
 
+![Hopscotch Method Overview](assets/Hopscotch%20Poster%20Image.png)
+
 ## Requirements
 
 ### Special Transformers Fork
